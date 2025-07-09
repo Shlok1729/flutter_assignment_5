@@ -1,16 +1,52 @@
-# assignment5a
+# 💪 BMI Calculator - Flutter App
 
-A new Flutter project.
+An interactive and visually engaging Body Mass Index (BMI) calculator made with Flutter.  
+It calculates BMI in real-time using sliders and provides instant visual and emoji feedback based on the result.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📐 BMI Logic Used
 
-A few resources to get you started if this is your first Flutter project:
+> **BMI = weight (kg) / (height (m))²**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app converts height from cm to meters, then calculates BMI dynamically as sliders are moved.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Example:
+
+---
+
+## 🧠 BMI Categories
+
+| BMI Range      | Category     | Emoji  |
+|----------------|--------------|--------|
+| < 18.5         | Underweight  | 😟     |
+| 18.5 – 24.9    | Normal       | 😊     |
+| 25.0 – 29.9    | Overweight   | 😅     |
+| 30.0 and above | Obese        | 😨     |
+
+---
+
+## ✨ Features
+
+- 🎚️ Sliders for adjusting height (cm) and weight (kg)
+- 🔢 Real-time BMI updates
+- 🎨 Dynamic gradient background based on BMI category
+- 😎 Emoji reactions for each BMI level
+- 🧽 Reset button to restore defaults
+- ⚡ Smooth animations using `AnimatedContainer`
+- 🧱 Built 100% using core Flutter widgets
+
+---
+
+## 📸 Screenshots
+
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone this repo:
+```bash
+git clone https://github.com/yourusername/flutter-bmi-calculator.git
+cd flutter-bmi-calculator
