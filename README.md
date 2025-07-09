@@ -40,7 +40,8 @@ Example:
 
 ## 📸 Screenshots
 
-
+<img width="1919" height="970" alt="Image" src="https://github.com/user-attachments/assets/c03b2662-2f9e-4a5b-9e02-1f18674322a6" />
+<img width="1919" height="983" alt="Image" src="https://github.com/user-attachments/assets/a1985d98-a1df-4eab-846d-945c1ea66704" />
 
 ---
 
